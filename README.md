@@ -25,6 +25,7 @@ The way I do it is through two shell scripts (examples in the scripts folder). T
 You can do the same or find another way to reliably stop the program once it's running.
 
 **Example**
+
 I position myself in front of my skeleton XP farm (make sure to be close to where the XP drops can get to me), then use the Raycast command corresponding to start_autoclicker.sh, after which I can go AFK.
 Whenever I want to stop it I simply run stop_autoclicker.sh through Raycast, with a keyboard shortcut.
 
