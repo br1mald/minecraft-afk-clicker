@@ -2,6 +2,9 @@
 name = "minecraft_autoclicker"
 version = "0.1.0"
 edition = "2024"
+description = "A lightweight autoclicker for afk mob farming in Minecraft"
+repository = "https://github.com/br1mald/minecraft-afk-clicker"
+license = "MIT"
 
 [dependencies]
 enigo = "0.6.1"

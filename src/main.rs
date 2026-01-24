@@ -22,7 +22,7 @@ fn main() {
 
     sleep(initial_delay);
 
-    let mut attack_counter = 1845;
+    let mut attack_counter = 0;
     loop {
         if Path::new(STOP_FILE).exists() {
             let _ = fs::remove_file(STOP_FILE);
