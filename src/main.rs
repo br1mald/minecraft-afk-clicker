@@ -9,7 +9,7 @@ const ATTACK_DELAY_MS: u64 = 650; // diamond sword attacks need a 0.625 delay to
 const ATTACKS_BEFORE_EATING: i32 = 1850; //this rougly corresponds to 20 minutes
 const FOOD_SLOT: u16 = 28; // this keycode corresponds to slot 8.
 const WEAPON_SLOT: u16 = 19; // this keycode corresponds to slot 2.
-const EATING_DURATION: f32 = 1.6; // time needed to eat, this is 1.6s for most food items.
+const EATING_DURATION: f32 = 1.7; // time needed to eat, this is 1.6s for most food items. Using 1.7s to add a margin
 const STOP_FILE: &str = "/tmp/stop_autoclicker";
 
 fn main() {
