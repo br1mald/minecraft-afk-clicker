@@ -12,7 +12,7 @@ A simple autoclicker built in Rust for afk mob farming in Minecraft. Only works 
 ## Functions
 
 After executing the file, left clicks will be simulated with a 650ms (configurable by modifying ATTACK_DELAY_MS) interval between each of them, with eating every ~20 minutes, which should be enough to keep you alive, though you can change this via the ATTACKS_BEFORE_EATING constant (you will need to figure out how many attacks correspond to the duration you want). 
-Eating is achieved by simulating a number key press to switch to your food slot (you can customize this by modifying the corresponding variables), holding right click for 1.6 seconds then simulating another key press to switch back to your weapon slot. After that the left clicks will continue.
+Eating is achieved by simulating a number key press to switch to your food slot (you can customize this by modifying the corresponding variables), holding right click for 1.7 seconds then simulating another key press to switch back to your weapon slot. After that the left clicks will continue.
 
 ## Usage 
 
