@@ -20,14 +20,14 @@ You will need:
 - A way to run the binary
 - A way to stop the program (make sure to have this before testing it, it could get out of control otherwise)
 
-The way I do it is through two shell scripts (examples in the scripts folder). The first one executes the binary while the second one simply creates a file named stop_autoclicker in /tmp, which the program checks for every time it loops and breaks if it is detected. Those two scripts are run through Raycast, with a hotkey for *stop_autoclicker.sh*.
+The way I do it is through a shell script, similar to *start_autoclicker.sh* and a keyboard shortcut. The shell script is run through Raycast and simply executes the binary, while the keyboard shortcut will stop the program on the next iteration of the loop. It is set to Shift + Option + S but you can always change that by modifying the callback closure.
 
 You can do the same or find another way to reliably stop the program once it's running.
 
 **Example**
 
-I position myself in front of my skeleton XP farm (make sure to be close to where the XP drops can get to me), then use the Raycast command corresponding to start_autoclicker.sh, after which I can go AFK.
-Whenever I want to stop it I simply run stop_autoclicker.sh through Raycast, with a keyboard shortcut.
+I position myself in front of my XP farm (make sure to be close to where the XP drops can get to me), then use the Raycast command corresponding to start_autoclicker.sh, after which I can go AFK.
+Whenever I want to stop it I simply hit Shift + Option + S.
 
 ## Compilation
 

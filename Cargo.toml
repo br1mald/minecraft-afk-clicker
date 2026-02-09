@@ -8,3 +8,4 @@ license = "MIT"
 
 [dependencies]
 enigo = "0.6.1"
+rdev = "0.5.3"
